@@ -1,0 +1,28 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.75rem var(--layout-padding);
+  max-width: var(--layout-max-width);
+  width: 100%;
+}
+
+.header-burger {
+  width: 0px;
+  visibility: hidden;
+  @media (max-width: 767px) {
+    width: 1.5625rem;
+    visibility: visible;
+  }
+}
+
+.header-logo {
+  width: 11.3019rem;
+  height: 1.6625rem;
+}
+
+.header-search {
+  width: 1rem;
+  height: 1rem;
+}

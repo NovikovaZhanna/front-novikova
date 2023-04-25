@@ -1,0 +1,50 @@
+// reset styles
+
+html {
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+*,
+*::before,
+*::after,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: unset;
+}
+
+// main constants
+:root {
+  --layout-max-width: 1503px;
+  --layout-padding: 3rem;
+  --color-bg: #ffffff;
+  --color-border: #e9e9e9;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  :root {
+    --layout-padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --layout-padding: 1rem;
+  }
+}
